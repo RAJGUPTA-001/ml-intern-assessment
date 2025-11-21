@@ -22,7 +22,7 @@ Open trigram-assignment/src/ngram_model.py and fill in the TODO sections.
 
 - [ ] **5. Run the tests:**
   ```
-  pytest trigram-assignment/tests/test_ngram.py  
+  pytest ml-assignment/tests/test_ngram.py 
 
   Feel free to create your own tests.
   ```
