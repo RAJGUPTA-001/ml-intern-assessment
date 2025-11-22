@@ -32,6 +32,22 @@ pytest ml-assignment/tests/test_ngram.py
 
 Or use the Generate file to generate text.
 
+```bash
+cd ml-assignment
+python -m src.generate
+```
+
+As it is expected to stop at an end token, and the eol and para endings are treated as an endtoken while 
+
+preprocessing and model train so the end token is very much possible .
+
+to get longer results try changing the generate function in the generate.py file , it takes as argument min 
+
+and max to configure the output token. It is by default set to use max=50.
+
+
+
 ## Design Choices
 
-Please document your design choices in the `evaluation.md` file. This should be a 1-page summary of the decisions you made and why you made them.
+Check the evaluation.md file
+
